@@ -22,7 +22,7 @@ class Api::V1::ScoresController < ApplicationController
   private
 
   def score_params
-    params.require(:score).permit(:user_id, :seconds)
+    params.require(:score).permit(:user_id, :points)
   end
 
   def find_score
