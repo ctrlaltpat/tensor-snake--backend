@@ -11,9 +11,9 @@
 patrick = User.create(name: 'Patrick')
 aisha = User.create(name: 'Aisha')
 
-review1 = Review.create(content: "aaammmmaaazzziiinnngggg", user_id: 1)
-review2 = Review.create(content: "2wulksham,dfgbc jdfhskzc,bvc ukeajrs,zbfjds", user_id: 2)
-review3 = Review.create(content: "coooooooooooooooolll", user_id: 1)
+review1 = Review.create(content: "aaammmmaaazzziiinnngggg", user_id: 1, star_rating: 3)
+review2 = Review.create(content: "2wulksham,dfgbc jdfhskzc,bvc ukeajrs,zbfjds", user_id: 2, star_rating: 5)
+review3 = Review.create(content: "coooooooooooooooolll", user_id: 1, star_rating: 4)
 
 score1 = Score.create(user_id: 1, points: 9999999)
 score2 = Score.create(user_id: 2, points: 9999998)
