@@ -1,4 +1,4 @@
 class User < ApplicationRecord
-  has_many :scores
-  has_many :reviews
+  has_many :scores, dependent: :destroy
+  has_many :reviews, dependent: :destroy
 end
