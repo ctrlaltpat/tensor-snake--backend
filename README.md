@@ -1,24 +1,13 @@
-# README
+# "Tensor Snake"
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project uses the [Webcam Transfer Learning](https://github.com/tensorflow/tfjs-examples/tree/master/webcam-transfer-learning) repo from [Tensorflow JS Expamples Github](https://github.com/tensorflow/tfjs-examples).
 
-Things you may want to cover:
 
-* Ruby version
+Swapped PACMAN with a snake game for a group project in Flatiron School's 3rd Module.
 
-* System dependencies
+Coded by [Aisha](https://github.com/wimbleclaw) & [Patrick](https://github.com/ctrlaltpat)
 
-* Configuration
+[Demo](https://youtu.be/vEvEFGxGyMg)
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+See [Front-End](https://github.com/ctrlaltpat/tensor-snake--frontend) 
